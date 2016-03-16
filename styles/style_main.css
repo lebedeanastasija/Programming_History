@@ -1,0 +1,205 @@
+body {
+    background:#010001 url(../images/bg.jpg) no-repeat center top fixed;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+}
+
+#user-data {
+    margin: 50px 320px 320px;
+    padding: 10px;
+    transition: color 0.5s;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    border: solid 2px #ffffff/*#e26801*/;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#page-align {
+    font-family: Arial, Calibri, Tahona;
+    font-size: 20px;
+    color: #fff;
+    width: 890px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 35px auto;
+    padding: 0;
+    border-bottom: solid 1px #ffffff;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    -khtml-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+
+    position:relative;
+}
+
+.main-menu {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+}
+
+.header {
+    width: 890px;
+    height: 35px;
+    background: #e26801;
+    overflow: hidden;
+    border-bottom: 1px solid #012340;
+    box-shadow:inset 0px 3px 0px rgba(255,255,255, 0.1);
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+}
+
+.header ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    float: left;
+}
+
+.article {
+    clear: both;
+    margin: 0px 30px;
+    padding-bottom: 10px;
+    width: 800px;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 25px;
+    color: #fff;
+    text-align: justify;
+}
+
+.article-header {
+    clear: both;
+    margin: 40px 0px;
+    height: 80px;
+    border-bottom: solid 2px #e26801;
+    border-top: solid 2px #e26801;
+    font-size: 25px;
+    text-align: center;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 0px 50px;
+    height: 35px;
+    display:  block;
+    line-height: 35px;
+    color: #012340;
+    font-family: monospace;
+}
+
+.header ul li a:hover {
+    background: rgba(0,0,0,0.05);
+    color: #FFF;
+    text-shadow: 1px 1px 0px #012340;
+    transition: color 0.5s;
+}
+
+.about {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about h1 {
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    margin-left: 190px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    border-bottom: dashed 2px #e26801;
+}
+
+.about p {
+    font-size: 17px;
+    font-family: monospace;
+    margin-left: 200px;
+    margin-right: 40px;
+    line-height: 25px;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 3px 3px 3px rgba(0,0,0,1);
+}
+
+.clr {
+    clear: both;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5) ;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.active {
+    background: rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px #fff777;
+    transition: color 0.5s;
+}
+
+input{
+    margin: 5px auto;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #666;
+    bow-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 9px #e26801;
+    overflow: hidden;
+}
+
+
+.item img {
+    margin: 30px auto;
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5) ;
+    overflow: hidden;
+}
+#carousel {
+    width: 600px;
+    margin: 30px auto;
+}
+

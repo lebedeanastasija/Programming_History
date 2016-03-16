@@ -1,0 +1,48 @@
+body {
+    /*background: #89d7fb url(../images/bg.jpg) center top no-repeat; */
+    background: #71cd8e;
+}
+
+#responsive-menu {
+    font-size: large;
+}
+
+.main {
+    background-color: #b2dba1;
+    margin-top: 2%;
+    border: white 2px solid;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.form{
+    background-color: dimgray;
+    margin-top: 2%;
+    background-color: RGBA(219, 246, 253, 0.5);
+}
+
+.form legend {
+    text-align: center;
+}
+
+.body > div.container-fluid > div > div {
+    /*background-color: lightskyblue;*/
+}
+
+.menu {
+    text-align: center;
+}
+
+.header-img {
+    text-align: center;
+}
+
+.user-icon {
+    font-size: 200%;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+}
+
