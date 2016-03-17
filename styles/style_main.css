@@ -174,7 +174,7 @@ a {
     transition: color 0.5s;
 }
 
-input{
+input[type="text"]{
     margin: 5px auto;
     height: 30px;
     border-radius: 5px;
@@ -183,7 +183,22 @@ input{
     transition: all 0.3s ease-in-out;
 }
 
-input:focus{
+input[type="password"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 9px #e26801;
+    overflow: hidden;
+}
+
+input[type="password"]{
+    margin: 5px auto;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #666;
+    bow-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus{
     outline: none;
     box-shadow: 0px 0px 9px #e26801;
     overflow: hidden;
@@ -194,12 +209,64 @@ input:focus{
     margin: 30px auto;
     width: 350px;
     height: 600px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5) ;
     overflow: hidden;
 }
 #carousel {
     width: 600px;
-    margin: 30px auto;
+    margin: 0 13%;
 }
+.question {
+    border: solid 2px #e26801;
+    margin: 20px 20px;
+    padding: 20px;
+    padding: 20px;
+}
+
+input[name="answer"]{
+    width: 40px;
+}
+
+input[name="check"]{
+    clear: both;
+    background-color: #e26801;
+    color: #012340;
+    margin: 5% 40%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input[name="check"]:focus{
+    background: rgba(0,0,0,0.2);
+    color: #fff777;
+    text-shadow: 1px 1px 1px #012340;
+    transition: color 0.5s;
+}
+
+.test {
+    border: solid 2px #e26801;
+    margin: 20px 20px;
+    padding: 20px;
+    padding: 20px;
+}
+
+.test-image {
+
+}
+
+hr, br{
+    clear:both;
+}
+
+.about a{
+    text-decoration: none;
+    color: #e26801;
+}
+
+span{
+    color: #fff777;
+}
+.question {
+    font-size: 15px;
+}
+
 
